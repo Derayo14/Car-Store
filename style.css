@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(208, 205, 205, 0.596);
+}
+section{
+
+    width: 70%;
+    margin: 0 auto;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    font-size: 40px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.purchasediv{
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+.carone{
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 0px 5px white;
+    border-radius: 8px ;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.068);
+    padding: 8px;
+    
+}
+.iconcontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+
+}
+.descriptiontext{
+    display: flex;
+    justify-content: space-between;
+}
+.dotted{
+    border: 1px dashed black;
+    border-radius: 11px;
+    padding: 4px 6px;
+
+}
+img{
+    border-radius: 15px;
+    max-height: 10em;
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn{
+    background-color: rgba(8, 141, 236, 0.774);
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    color:white;
+    margin-left: 9px;  
+}
+.txt{
+    display: flex;
+    align-items: center;
+}
